@@ -4,6 +4,6 @@ public class MallardDuck extends Duck
 {
     public MallardDuck()
     {
-        this.flyBehavior = new WingedFlying();
+        this.flyBehavior = new RocketBoostedFlying();
     }
 }
