@@ -1,6 +1,6 @@
 package main;
 
-public abstract class FlyingBehavior
+public interface FlyingBehavior
 {
-    public abstract void performFly();    
+    public void performFly();    
 }

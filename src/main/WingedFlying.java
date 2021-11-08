@@ -1,6 +1,6 @@
 package main;
 
-public class WingedFlying extends FlyingBehavior
+public class WingedFlying implements FlyingBehavior
 {
     @Override
     public void performFly() {

@@ -6,11 +6,11 @@ public abstract class Duck
     public Duck()
     {
     }
-    public void performFly()
+    public final void performFly()
     {
         flyBehavior.performFly();
     }
-    public void swim()
+    public final void swim()
     {
         System.out.println("All ducks swim");
     }
