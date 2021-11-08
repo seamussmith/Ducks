@@ -6,4 +6,8 @@ public class RoboDuck extends Duck
     {
         flyBehavior = new RocketBoostedFlying();
     }
+    @Override
+    public void display() {
+        System.out.println("Its a Robo Duck!");
+    }
 }

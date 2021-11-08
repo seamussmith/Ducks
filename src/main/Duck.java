@@ -10,12 +10,13 @@ public abstract class Duck
     {
         flyBehavior.performFly();
     }
-    public final void swim()
-    {
-        System.out.println("All ducks swim");
-    }
     public final void setFlyBehavior(FlyingBehavior fly)
     {
         flyBehavior = fly;
     }
+    public void swim()
+    {
+        System.out.println("All ducks swim");
+    }
+    public abstract void display();
 }
