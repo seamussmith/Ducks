@@ -1,6 +1,6 @@
 package main;
 
-public interface FlyingBehavior
+public interface IFlyingBehavior
 {
     public void performFly();
 }

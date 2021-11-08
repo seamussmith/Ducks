@@ -2,7 +2,7 @@ package main;
 
 public abstract class Duck
 {
-    FlyingBehavior flyBehavior;
+    IFlyingBehavior flyBehavior;
     public Duck()
     {
     }
@@ -10,7 +10,7 @@ public abstract class Duck
     {
         flyBehavior.performFly();
     }
-    public final void setFlyBehavior(FlyingBehavior fly)
+    public final void setFlyBehavior(IFlyingBehavior fly)
     {
         flyBehavior = fly;
     }

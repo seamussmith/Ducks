@@ -1,6 +1,6 @@
 package main;
 
-public class RocketBoostedFlying implements FlyingBehavior {
+public class RocketBoostedFlying implements IFlyingBehavior {
 
     @Override
     public void performFly() {
