@@ -14,4 +14,8 @@ public abstract class Duck
     {
         System.out.println("All ducks swim");
     }
+    public final void setFlyBehavior(FlyingBehavior fly)
+    {
+        flyBehavior = fly;
+    }
 }
